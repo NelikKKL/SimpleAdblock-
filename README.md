@@ -1,0 +1,2 @@
+# SimpleAdblock-
+adblock for firefox
