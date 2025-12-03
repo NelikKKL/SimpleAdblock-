@@ -1,0 +1,72 @@
+{
+  "networkFilters": [
+    "adfox", "doubleclick", "googlesyndication", "googletagservices", "googletagmanager",
+    "taboola", "outbrain", "criteo", "rubiconproject", "pubmatic", "openx",
+    "adform", "smartadserver", "moatads", "adsafeprotected", "mgid", "revcontent",
+    "yandex.ru/ads", "ad.mail.ru", "ad.rambler.ru", "marketgid.com", "kadam.net",
+    "directadvert.ru", "bodyclick.net", "smi2.ru", "relap.io", "mgts.ru/ad",
+    "begun.ru", "rtb.mts.ru", "adriver.ru", "adv.rbc.ru", "ad.kommersant.ru",
+    "ad.vedomosti.ru", "ad.forbes.ru", "ad.gazeta.ru", "ad.lenta.ru", "ad.ria.ru",
+    "ad.tass.ru", "ad.interfax.ru", "ad.vesti.ru", "ad.tvrain.ru", "ad.echo.msk.ru",
+    "ad.fontanka.ru", "ad.ngs.ru", "ad.e1.ru", "ad.nn.ru", "ad.kazan.ru",
+    "ad.ufa.ru", "ad.chel.ru", "ad.omsk.ru", "ad.nsk.ru", "ad.spb.ru", "ad.msk.ru",
+    "adnxs.com", "bitmedia.io", "appnext.com", "mobilefuse.com",
+    "media.net", "loopmeedge.net", "loopme.com", "algorix.com", "kayzen.io",
+    "smrtads.com", "openads", "aira.cz", "crakrevenue.com", "comicad.net",
+    "adtarget.biz", "dtignite.com", "adunity.com", "selectmedia.asia",
+    "playground.xyz", "igniterads.com", "adshares.net", "skimresources.com",
+    "pixfuture.com", "adxxx.com", "cryptoadvertising.net", "adsparc.com",
+    "getadfinity.com", "air2s.com", "yollamedia.com", "network-n.com",
+    "pubfinity.com", "visx.net", "2mdn.net", "nbcuni.com", "tradehouse.media",
+    "monetiza.co", "adsmatcher.com", "guandads.com", "gcdn.2mdn.net",
+    "ads.topsex.cc", "googleadservices.com", "adroll.com", "serving-sys.com",
+    "spotx.tv", "spotxchange.com", "sovrn.com", "lijit.com", "3lift.com",
+    "crwdcntrl.net", "adcolony.com", "chartboost.com", "vungle.com", "unityads"
+  ],
+  "globalElementHidingSelectors": [
+    ".ad", ".ads", ".advertisement", ".banner-ads", ".ad-container",
+    "[id^=\"google_ads_\"]", "[id^=\"div-gpt-ad\"]", "[class*=\" ad-\"]", "[class*=\" ads-\"]",
+    "iframe[src*=\"ads\"]", "iframe[src*=\"doubleclick\"]", "iframe[src*=\"adfox\"]",
+    ".adsbygoogle",
+    ".video-ads", ".ytp-ad-module", ".ytp-ad-overlay-slot", ".ytp-ad-player-overlay",
+    ".ytp-ad-image-overlay", ".ytp-ad-text-overlay", ".ytp-ad-skip-button",
+    ".popup", ".modal", ".ad-popup", ".ad-modal", ".overlay", ".backdrop", ".dialog",
+    "[class*=\"-popup\"]", "[class*=\"-modal\"]", "[class*=\"-overlay\"]", "[class*=\"-dialog\"]",
+    "[id*=\"-popup\"]", "[id*=\"-modal\"]", "[id*=\"-overlay\"]", "[id*=\"-dialog\"]",
+    "div[aria-modal=\"true\"]", "div[role=\"dialog\"]",
+    "div[data-qa=\"modal\"]", "div[data-testid=\"modal\"]",
+    "div[data-adblock-popup]",
+    "body:has(> .popup)", "body:has(> .modal)", "body:has(> .overlay)",
+    "img[src$=\".gif\"][src*=\"ad\"]", "img[src$=\".gif\"][src*=\"ads\"]", "img[src$=\".gif\"][src*=\"banner\"]",
+    "picture source[srcset$=\".gif\"]", "iframe[src$=\".gif\"]",
+    ".ad img[src$=\".gif\"]", ".ads img[src$=\".gif\"]", ".banner img[src$=\".gif\"]",
+    "[class*=\"banner\"] img[src$=\".gif\"]",
+    "div[class*=\"ad\"]:has(img[src$=\".gif\"])", "div[class*=\"banner\"]:has(img[src$=\".gif\"])",
+    "section[class*=\"ad\"]:has(img[src$=\".gif\"])", "section[class*=\"banner\"]:has(img[src$=\".gif\"])",
+    "aside[class*=\"ad\"]:has(img[src$=\".gif\"])",
+    "img[src$=\".png\"][src*=\"ad\"]", "img[src$=\".png\"][src*=\"ads\"]", "img[src$=\".png\"][src*=\"banner\"]",
+    "img[src$=\".jpg\"][src*=\"ad\"]", "img[src$=\".jpg\"][src*=\"ads\"]", "img[src$=\".jpg\"][src*=\"banner\"]",
+    "img[src$=\".jpeg\"][src*=\"ad\"]", "img[src$=\".jpeg\"][src*=\"ads\"]", "img[src$=\".jpeg\"][src*=\"banner\"]",
+    "img[src$=\".webp\"][src*=\"ad\"]", "img[src$=\".webp\"][src*=\"ads\"]", "img[src$=\".webp\"][src*=\"banner\"]",
+    "picture source[srcset*\"ad\"]", "picture source[srcset*\"banner\"]", "picture source[srcset*\"adfox\"]",
+    "iframe[id^=\"google_ads_iframe\"]", "div[id^=\"google_ads\"]", "ins[id^=\"aswift_\"]",
+    "[class^=\"ad-\"]", "[class$=\"-ad\"]",
+    "[class*=\"sticky\"][class*=\"ad\"]", "[class*=\"fixed\"][class*=\"ad\"]",
+    "[class*=\"sticky\"] [class*=\"banner\"]", "[class*=\"fixed\"] [class*=\"banner\"]",
+    "[data-ad]", "[data-ads]", "[data-banner]", "[data-advertisement]", "[data-testid*=\"ad\"]", "[data-testid*=\"banner\"]",
+    "[class*=\"sponsor\"] img", "[class*=\"sponsor\"] a",
+    ".ad img[src$=\".png\"]", ".ad img[src$=\".jpg\"]", ".ad img[src$=\".jpeg\"]", ".ad img[src$=\".webp\"]",
+    ".ads img[src$=\".png\"]", ".ads img[src$=\".jpg\"]", ".ads img[src$=\".jpeg\"]", ".ads img[src$=\".webp\"]",
+    ".banner img[src$=\".png\"]", ".banner img[src$=\".jpg\"]", ".banner img[src$=\".jpeg\"]", ".banner img[src$=\".webp\"]",
+    "object[type*=\"flash\"]", "embed[type*=\"flash\"]", "object[data$=\".swf\"]", "embed[src$=\".swf\"]",
+    "object[data*=\"ad\"]", "embed[src*=\"ad\"]", "object[data*=\"banner\"]", "embed[src*=\"banner\"]"
+  ],
+  "languageSpecificElementHidingSelectors": {
+    "ru": [
+      ".yandex-ad", ".mail-ad", ".rambler-ad"
+    ],
+    "en": [
+      ".google-ad", ".bing-ad"
+    ]
+  }
+}
